@@ -1,14 +1,13 @@
 {
-  "name": "hash-coinflip",
+  "name": "sha256-coinflip",
   "version": "1.0.0",
-  "description": "",
+  "description": "Cryptography coinflip inspired by MIT's Security and Cryptography (2020) lecture.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node --harmony app.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Tatu Pesonen",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^3.0.0",
     "js-sha1": "^0.6.0",
